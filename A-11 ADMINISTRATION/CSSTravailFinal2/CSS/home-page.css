@@ -1,0 +1,92 @@
+*{
+	font-family: Verdana, sans-serif;
+	width:990px;
+}
+
+body{
+	width:990;
+	margin:auto;
+}
+
+#menu{
+	
+}
+
+.table-header{
+	float:right;
+
+}
+
+.cellule0-header{
+	float:left;
+	margin:;
+}
+
+.cellule1-header{
+	width: 18%;
+	text-align:center;
+}
+
+.cellule2-header{
+	width: 18%;
+	text-align:center;
+}
+
+.cellule3-header{
+	width: 18%;
+	text-align:center;
+}
+
+.cellule4-header{
+	width: 18%;
+	text-align:center;
+}
+
+.div1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+}
+
+.h1-section{
+	text-align:center;
+}
+
+.p-section{
+	text-align:center;
+}
+
+.image-home-page{
+	height:50%;
+	width:100%;
+}
+
+footer{
+	background-color: tomato;
+	height:70px;
+}
+
+#bouton-resume{
+	text-align:center;
+}
+
+#bouton-my-goals{
+	text-align:center;
+}
+
+#bouton-school-project{
+	text-align:center;
+}
+
+.footer-table{
+	margin:auto;
+}
+
+.celluleB-footer{
+	text-align:center;
+	padding-right:300px;
+}
+
+.cellule3-footer{
+	padding-left:300px;
+}

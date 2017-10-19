@@ -1,0 +1,24 @@
+table{
+	background-color: #a0946c;
+	padding:20px;
+	width:100%;
+}
+
+.Range1Cellule1{
+	font-size :30px;
+	color:white;
+	height: 30px;
+	text-align:center;
+	border-bottom:3px solid white;
+}
+
+.Range2Cellule1{
+	padding-top:0px;
+	color: black;
+}
+
+.Range2Cellule2{
+	background-color: white;
+}
+
+/*ceci est un test de merge5*/

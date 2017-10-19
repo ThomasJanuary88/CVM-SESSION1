@@ -1,0 +1,48 @@
+
+nav{
+	background-image: url("../images/clouds.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 500px;
+}
+table{
+	width: 900px;
+	margin:auto;
+}
+header{
+	color:white;
+	text-align: center;
+	background-image: url("../images/texture.png");
+}
+
+/*.header-td1{
+	padding:30%;
+}
+
+.header-td2{
+	padding-left:10%;
+}
+
+.header-td3{
+	padding-left:10%;
+}
+
+.header-td4{
+	padding-left:10%;
+}
+
+.header-td5{
+	padding-left:10%;
+}*/
+
+.nav{
+	color:white;
+}
+
+.footer{
+	font-size:10px;
+	color:white;
+	width: 100%;
+	padding: 1%;
+	background-image: url("../images/texture.png");
+}

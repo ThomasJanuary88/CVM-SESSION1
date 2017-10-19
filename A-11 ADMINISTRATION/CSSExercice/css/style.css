@@ -1,0 +1,102 @@
+/*Je veux que tout soit a 0*/
+*{
+	margin:0;
+	padding:0;
+}
+
+/*Je veux un fond d'ecran seulement sur mon html*/
+html{
+	background-image: url("../images/background.jpg");
+	background-size:cover;
+	background-position: 100% 50%;
+	height:100%;
+	color:white;
+	font-family:arial;
+}
+
+/*Changer la couleur des listes*/
+a{
+	color:white;
+	/*Transition*/
+	transition:color 1s ease-out;
+}
+
+/*Selectuer de la souris quand ca va sur un truc*/
+a:hover{
+	color:#6ee;
+	/*Enlever la déco du texte*/
+	text-decoration: none;
+}
+
+/*Acceder a la classe container de html*/
+.container{
+	/*Largeur de tableau de 960pixel*/
+	width: 960px;
+	/*Centrer le texte*/
+	margin:auto;
+}
+
+/*Acceder à la classe header*/
+.header{
+	/*En haut/droite, en bas/droite
+	padding: 10px 100px;*/
+	padding-top:20px;
+	/*Hauteur de 60pixel*/
+	height:60px;
+	background-color: #333;
+}
+
+#footer{
+	/*Couleur est transparence; 0.6 = 40 des px passent à travers*/
+	background-color: rgba(255,255,255,0.6);
+}
+
+/*Je veux que tout soit aligné au centre dans mon tableau*/
+table td{
+	vertical-align: center;
+}
+
+/*Je veux tous les elements de mes listes*/
+ul li{
+	/*Effacer les puces*/
+	list-style-type: none;
+	/*Adapter la position*/
+	list-style-position: inside;
+	/*Rajouter de l'espace vers le bas*/
+	margin:0 0 10 0;
+}
+
+/**/
+.menu-column div{
+	/*Adapter la largeur*/
+	width:140px;
+	padding-top:120px;
+	background-image:url("../images/logo.png");
+	/*Empecher que le logo se repeat*/
+	background-repeat: no-repeat;
+	/*Repositioner le logo*/
+	background-position: top-left;
+}
+
+/**/
+.main-section{
+	margin-top:50px;
+	padding:10px;
+	background-color: rgba(50,50,50,0.5);
+	min-height:400px;
+	box-shadow:0 0 5px black;
+}
+
+/*Acceder aux paragraphes*/
+p{
+	margin-bottom: 10px;
+}
+
+/*Acceder aux titre du tableau*/
+.main-section h2{
+	/*Rajouter de l'espace avant et après*/
+	line-height: 120px;
+	/*Ombre sur x, y, z, couleur; z=grosseur de l'ombre
+	-> permet de mettre en évidence le texte avec subtilité*/
+	text-shadow:2px 2px 20px red;
+}
